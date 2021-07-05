@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+#top-section{
+    display:flex;
+    padding: 20px 0px;
+}
+.adjust-container{
+    width: 50%;
+padding-left: 8%;
+}
+.image-container img{
+    width: 80%;
+}
+.blue-color{
+    color: #3742fa;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #555151;
+}
+.text-container{
+    margin-top: 90px;
+}
+p{
+    font-size: 16px;
+    line-height: 1.4;
+    color: gray;
+}
+.top-section-paragraph{
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+.food-network-button{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background-image: linear-gradient(to left, #3742fa, #1e90ff);
+    border-radius: 50px;
+}
