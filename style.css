@@ -128,6 +128,9 @@ footer{
 .footer-contents p{
     color: #fff;
 }
+#our-team{
+    background-color: #EBF8FE;
+}
 .our-team-container {
     width: 85%;
     margin: auto;
