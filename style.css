@@ -54,7 +54,7 @@ p{
 .food-network-button{
     text-decoration: none;
     color: #fff;
-    padding: 10px 30px;
+    padding: 20px 40px;
     background-image: linear-gradient(to left, #3742fa, #1e90ff);
     border-radius: 50px;
 }
@@ -128,3 +128,73 @@ footer{
 .footer-contents p{
     color: #fff;
 }
+.our-team-container {
+    width: 85%;
+    margin: auto;
+}
+.our-team-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.team-members{
+    display:flex;
+}
+.team-member-profile{
+    width: 100%;
+    text-align: center;
+}
+.team-member-profile h3{
+    margin:0;
+    padding: 0;
+}
+.team-member-profile img{
+    margin-bottom: 20px;
+}
+#contact{
+    padding: 120px 0px;
+    background-image: url(images/guy-eats-hot-dog-which-himself-has-prepared-street-food-young-man-blue-shirt-eats-hot-dog-white-background-100449486-removebg-preview.png), linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.contact-texts{
+    padding-left: 5%;
+    padding-top: 20px;
+}
+.contact-texts h2{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.contact-texts p{
+    color: #fff;
+}
+.email-input {
+    padding: 20px 40px;
+    border: 2px solid #3742fa;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width:70%;
+    color: #fff;
+    background-color:transparent;
+}
+form{
+    padding-left: 5%;
+}
+form .subscribe {
+    border: none;
+    width: 25%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
